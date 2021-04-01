@@ -4,7 +4,15 @@ import "./Button.css";
 import clsx from "clsx";
 
 const Button = (props) => {
-  const { text, size, outlined, icon, variant } = props;
+  const {
+    text,
+    size,
+    outlined,
+    icon,
+    variant,
+    marginLeft,
+    marginBottom,
+  } = props;
   let currentClass = "";
   if (variant === "primary") {
     currentClass = "btn--primary";
@@ -32,6 +40,12 @@ const Button = (props) => {
   }
   if (size === "big") {
     currentClass = clsx(currentClass, "big");
+  }
+  if (marginBottom === "5") {
+    currentClass = clsx(currentClass, "marginBottom--5");
+  }
+  if (marginLeft === "15") {
+    currentClass = clsx(currentClass, "marginLeft--15");
   }
   return (
     <button className={clsx(currentClass, "btn", "btn--inner")}>

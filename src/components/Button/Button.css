@@ -21,13 +21,11 @@
   color: var(--white);
   border: 1px solid var(--dark-grey);
   font-weight: 500;
-  margin-left: 15px;
   font-size: 16px;
 }
 .btn--white {
   background-color: var(--white);
   color: var(--dark-grey);
-  margin-left: 15px;
   border: 1px solid var(--light-black);
   font-weight: 500;
   font-size: 16px;
@@ -45,6 +43,7 @@
   border: 1px solid var(--light-grey);
   font-weight: 400;
   font-size: 16px;
+  margin-left: 0;
 }
 .outlined--dark-grey {
   background-color: transparent;
@@ -60,4 +59,10 @@
   max-width: 410px;
   min-height: 73px;
   padding: 0 15px;
+}
+.marginBottom--5 {
+  margin-bottom: 5px;
+}
+.marginLeft--15 {
+  margin-left: 15px;
 }

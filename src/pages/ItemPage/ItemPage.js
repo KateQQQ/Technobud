@@ -1,14 +1,16 @@
 import React from "react";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
+import HouseInformation from "./HouseInformation/HouseInformation";
 import HouseDescription from "./HouseDescription/HouseDescription";
-// import Button from "./components/Button/Button";
-// import { MailIcon, SyncIcon } from "@primer/octicons-react";
 
 const ItemPage = () => {
   return (
     <div>
       <Header />
       <HouseDescription />
+      <HouseInformation />
+      <Footer />
     </div>
   );
 };
