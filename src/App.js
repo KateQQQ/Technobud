@@ -1,11 +1,11 @@
 import "./App.css";
 import "./components/colors.css";
-import ItemPage from "./pages/ItemPage/ItemPage";
+import MainPage from "./pages/MainPage/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <ItemPage />
+      <MainPage />
     </div>
   );
 }

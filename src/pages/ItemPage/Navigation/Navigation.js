@@ -5,7 +5,7 @@ import Button from "../../../components/Button/Button";
 import { MailIcon } from "@primer/octicons-react";
 import LogoIcon from "./LogoIcon";
 
-const Header = () => {
+const Navigation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.containerInner}>
@@ -42,4 +42,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navigation;

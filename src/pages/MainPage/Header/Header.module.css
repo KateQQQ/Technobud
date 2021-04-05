@@ -1,0 +1,49 @@
+.container {
+  min-height: 618px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 65%,
+    rgba(241, 243, 242, 1) 65%,
+    rgba(241, 243, 242, 1) 100%
+  );
+  margin-bottom: 100px;
+}
+.containerInner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 135px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 10px;
+}
+
+.image {
+  width: 867px;
+  height: 551px;
+  position: absolute;
+  background-image: url("./backgroundImage.png");
+  top: 20%;
+  left: 15%;
+}
+.title {
+  font-size: 62px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  position: absolute;
+  top: 72px;
+  left: 550px;
+}
+.stripes {
+  background-image: url("./stripesImage.png");
+  position: absolute;
+  width: 93px;
+  height: 200px;
+  top: 50px;
+  left: -26px;
+}

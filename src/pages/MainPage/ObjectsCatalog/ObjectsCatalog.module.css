@@ -1,0 +1,89 @@
+.container {
+  margin: 40px 0;
+}
+.containerInner {
+  margin: 0 auto;
+  /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; */
+
+  width: 100%;
+  max-width: 1300px;
+  padding: 0 10px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+.title {
+  color: var(--light-black);
+  font-size: 32px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.syncIcon {
+  margin-right: 15px;
+}
+.list {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: var(--black);
+  min-width: 200px;
+  margin: 10px;
+}
+.searchButton {
+  background-color: transparent;
+  border: none;
+}
+.searchInput {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  min-width: 200px;
+  margin: 10px;
+  min-height: 15px;
+}
+.searchInput::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.searchForm {
+  border: none;
+  min-width: 25px;
+}
+.objectCard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.button {
+  margin: 35px 0;
+}

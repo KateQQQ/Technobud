@@ -48,6 +48,8 @@
 .outlined--dark-grey {
   background-color: transparent;
   color: var(--dark-grey);
+  font-weight: 500;
+  font-size: 16px;
   border: 1px solid var(--dark-grey);
 }
 .medium {
